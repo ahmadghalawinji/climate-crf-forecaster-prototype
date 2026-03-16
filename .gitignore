@@ -1,0 +1,25 @@
+data/raw/
+
+# Processed data (auto-generated, reproducible)
+data/processed/
+
+# Trained model artifacts
+models/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Outputs 
+outputs/
+
+
