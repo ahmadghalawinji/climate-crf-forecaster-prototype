@@ -1,0 +1,4 @@
+,r2,rmse
+linear_regression,0.32,2.391
+random_forest,0.294,2.436
+xgboost,0.242,2.526

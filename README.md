@@ -212,6 +212,9 @@ activity.
 
 **Requirements**: Python 3.10 or 3.11
 
+> **Data**: Before running the pipeline, download the required source files.
+> See [`data/raw/README.md`](data/raw/README.md) for step-by-step instructions.
+
 ```bash
 # Clone or download the project, then:
 cd climate_crf_project
@@ -325,6 +328,20 @@ joblib>=1.3
 
 ---
 
+## Reproducing the results
+
+The processed dataset is included at `data/processed/dataset_with_crf.csv`
+and trained models are in `models/`. You can run the pipeline from step 5
+without any raw data:
+
+    python -m src.05_train_model        # retrain models
+    python -m src.06_simulate_scenarios # run scenarios
+    streamlit run dashboard/app.py      # launch dashboard
+
+To reproduce from raw data (requires ERA5 API access), see the full
+pipeline instructions in the README.
+
+---
 ## License
 
 This project is a research prototype developed for academic demonstration
