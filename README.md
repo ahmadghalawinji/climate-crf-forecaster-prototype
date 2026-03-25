@@ -58,7 +58,7 @@ The full pipeline covers:
 ## Project structure
 
 ```
-climate_crf_project/
+climate-crf-forecaster-prototype/
 │
 ├── data/
 │   ├── raw/                        ← original source files (not tracked by git)
@@ -217,7 +217,7 @@ activity.
 
 ```bash
 # Clone or download the project, then:
-cd climate_crf_project
+cd climate-crf-forecaster-prototype
 
 # Create and activate a virtual environment
 python -m venv venv
